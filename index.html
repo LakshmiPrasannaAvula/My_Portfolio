@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website for a student / fresher developer showcasing projects, skills, education, and experience."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="header">
+      <div class="container nav-container">
+        <div class="logo">
+          <span class="logo-mark">LP</span>
+          <span class="logo-text">Lakshmi Prasanna Avula</span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#Internship">Internship</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero / Intro -->
+    <section id="hero" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-tag">Web Developer</p>
+          <h1 class="hero-title">
+            Hi, I'm <span class="accent">Lakshmi Prasanna Avula</span>
+          </h1>
+          <p class="hero-subtitle">
+            Passionate developer with a love creating a web applications.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/lakshmi-prasannaavula-72a859296-/" target="_blank" rel="noreferrer"
+              >LinkedIn</a
+            >
+            <span>·</span>
+            <a href="https://github.com/LakshmiPrasannaAvula" target="_blank" rel="noreferrer"
+              >GitHub</a
+            >
+            <span>·</span>
+            <a href="mailto:avulalakshmiprasanna14@gmail.com">Email</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="hero-image">
+            <!-- Replace profile.jpg with your actual image file name -->
+            <img src="./assets/images/prasanna profile photo-2.jpeg" alt="img" />
+          </div>
+          <div class="hero-badge">
+            <span class="dot"></span>
+            <div>
+              <p class="badge-title">Open to work</p>
+              <p class="badge-subtitle">Internship / Full-time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-layout">
+          <div class="about-text fade-in">
+            <p>
+              I'm a dedicated full-stack web developer with the bengining of  building scalable web applications and user interfaces. 
+              My journey began with a Computer Science degree from KIET College, 
+              where I discovered my passion for combining technical problem-solving with creativing Web apps.
+            </p>
+            <p>
+              Currently, I'm looking for opportunities where I can grow as a
+              software engineer, contribute to meaningful projects, and work
+              with a supportive team.
+            </p>
+          </div>
+          <div class="about-highlights fade-in">
+            <div class="about-item">
+              <span class="about-label">Location</span>
+              <span class="about-value">Narasingapadu, Andhra Pradesh, India</span>
+            </div>
+            <div class="about-item">
+              <span class="about-label">Interests</span>
+              <span class="about-value">Web Development, UI/UX, Problem Solving, Figma,SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Technology in Computer Science</h3>
+              <p class="timeline-meta">
+                Kakinada Institute of Engineering and Technology · 2022 – 2026
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Higher Secondary Education</h3>
+              <p class="timeline-meta">Oxford Junior College · 2020 – 2022</p>
+            </div>
+          </div>
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>SSC</h3>
+              <p class="timeline-meta">
+                Oxford Concept School · 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="Internship" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Internship</h2>
+        <div class="cards-grid">
+          <article class="internship-card fade-in">
+            <h3>Python Full Stack Developer Virtual Internship </h3>
+            <p class="card-meta">AICTE · July – sep 2025</p>
+            <ul class="card-list">
+              <li>
+                Gained practical experience in Python, HTML, CSS, and JavaScript by developing small web applications.
+              </li>
+            </ul>
+          </article>
+
+          <article class="internship-card fade-in">
+            <h3>Web Development Internship </h3>
+            <p class="card-meta">CODE CRAFT VIRTUAL INTERNSHIP · May 2025 – June 2025</p>
+            <ul class="card-list">
+              <li>
+                Created projects such as a portfolio website, stopwatch, and event menu using 
+                HTML, CSS, and JavaScript, improving web design and development skills. 
+              </li>
+            </ul>
+          </article>
+          <article class="internship-card fade-in">
+            <h3>AI-ML Virtual Internship </h3>
+            <p class="card-meta">AICTE · Jan 2025 – March 2025</p>
+            <ul class="card-list">
+              <li>
+                Gained practical experience in machine learning and artificial intelligence by 
+                working on real-world datasets,
+                 implementing ML algorithms, and analyzing model performance. 
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="cards-grid">
+          <article class="card fade-in">
+            <h3>Yuga Yatra Retail OPC Pvt Ltd </h3>
+            <p class="card-meta">Retail Operations Intern</p>
+            <ul class="card-list">
+              <li>
+                Contributed to the retail operations with focus on customer service, inventory management, and team collaboration.
+              </li>
+              <li>
+                Assisted in the daily retail operations and customer interactions.
+              </li>
+              <li>
+                Supported inventory tracking and stock management processes.
+              </li>
+              <li>
+                Developed customer service and communication skills.
+              </li>
+              <li>
+                Contributed Technical suggestions for process improvements.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="cards-grid">
+          <article class="card project-card fade-in">
+            <div class="card-header">
+              <h3>Automatic Attendance System</h3>
+              <span class="tag">Machine Learning</span>
+            </div>
+            <p class="card-description">
+              Developed an attendance system using Python and OpenCV to automate student attendance through face 
+              recognition, reducing manual effort and errors. 
+            </p>
+            <p class="card-tech">Python · OpenCV · MySQL</p>
+            <div class="card-links">
+              <a
+                href="https://github.com/LakshmiPrasannaAvula/Automatic-attendence-system"
+                target="_blank"
+                rel="noreferrer"
+                class="link"
+                >GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card fade-in">
+            <div class="card-header">
+              <h3>Emotion-Based on Music Recommendation System</h3>
+              <span class="tag">Machine Learning</span>
+            </div>
+            <p class="card-description">
+              Built a music recommendation system that suggests songs based on facial expression 
+              analysis using machine learning and emotion detection techniques. 
+            </p>
+            <p class="card-tech">Python · OpenCV · MySQL</p>
+            <div class="card-links">
+              <a
+                href="https://github.com/LakshmiPrasannaAvula/Music-system-recommdenation"
+                target="_blank"
+                rel="noreferrer"
+                class="link"
+                >GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card fade-in">
+            <div class="card-header">
+              <h3>Random Number Generator Web App</h3>
+              <span class="tag">Web Development</span>
+            </div>
+            <p class="card-description">
+              Created a Random Number Generator Web App using JavaScript to help users generate random numbers within a specified range, 
+              improving their understanding of HTML, CSS, and JavaScript concepts.
+            </p>
+            <p class="card-tech">HTML · CSS · JavaScript</p>
+            <div class="card-links">
+              <a
+                href="https://github.com/LakshmiPrasannaAvula/Random-number-generator-web-app"
+                target="_blank"
+                rel="noreferrer"
+                class="link"
+                >GitHub</a>
+            </div>
+          </article>
+          <article class="card project-card fade-in">
+            <div class="card-header">
+              <h3>Smart Patient Monitoring System</h3>
+              <span class="tag">IOT</span>
+            </div>
+            <p class="card-description">
+              Our project is a Smart Patient Monitoring System designed to continuously monitor 
+              patients in real-time and provide instant alerts to caregivers if any abnormal behavior
+              , distress, or medical event occurs. The system can detect if a patient is falling,
+               wandering, angry, aggressive, or showing signs of distress. Caregivers can monitor
+                multiple patients simultaneously through a dashboard and take timely action to ensure
+                 safety and wellbeing.
+            </p>
+            <p class="card-tech">Python · OpenCV · MySQL</p>
+            <div class="card-links">
+              <a
+                href="https://github.com/LakshmiPrasannaAvula/smart_shield"
+                target="_blank"
+                rel="noreferrer"
+                class="link"
+                >GitHub</a>
+            </div>
+          </article>
+          <article class="card project-card fade-in">
+            <div class="card-header">
+              <h3>Competetive Exam Preparation Website</h3>
+              <span class="tag">Web Development</span>
+            </div>
+            <p class="card-description">
+              Developed a user-friendly website that offers mock tests, exam updates, and
+               subject-wise practice to support students in effective competitive exam preparation.
+            </p>
+            <p class="card-tech">HTML · CSS · JavaScript</p>
+            <div class="card-links">
+              <a
+                href="https://github.com/LakshmiPrasannaAvula/Competitive-"
+                target="_blank"
+                rel="noreferrer"
+                class="link"
+                >GitHub</a>
+            </div>
+          </article>
+          <article class="card project-card fade-in">
+            <div class="card-header">
+              <h3>Event Management Website</h3>
+              <span class="tag">Web Development</span>
+            </div>
+            <p class="card-description">
+              Developed a user-friendly event management website that allows users to view event information, 
+              schedules, and registrations, providing a smooth and engaging user experience.
+            </p>
+            <p class="card-tech">HTML · CSS · JavaScript</p>
+            <div class="card-links">
+              <a
+                href="https://github.com/LakshmiPrasannaAvula/EVENT-WEBSITE"
+                target="_blank"
+                rel="noreferrer"
+                class="link"
+                >GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Certificates</h2>
+        <div class="cards-grid">
+          <article class="card certificate-card fade-in">
+            <div class="card-header">
+              <h3>NCC- B Certificate</h3>
+              <span class="tag">NCC</span>
+            </div>
+            <p class="card-meta">Issued: JULY-2024</p>
+            <p class="card-description">
+              It taught me the quality of leadership,time management,discipline,
+              responsibility,build confidence and still there are more things I am learning from it. 
+            </p>
+            <div class="certificate-actions">
+              <a class="btn secondary" href="./assets/images/B certificate.jpeg" target="_blank" rel="noreferrer"
+                >View</a>
+            </div>
+          </article>
+
+          <article class="card certificate-card fade-in">
+            <div class="card-header">
+              <h3>NCC- C Certificate</h3>
+              <span class="tag">NCC</span>
+            </div>
+            <p class="card-meta">Issued: JULY-2025</p>
+            <p class="card-description">
+              It taught me the quality of leadership,time management,discipline,
+              responsibility,build confidence and still there are more things I am learning from it. 
+            </p>
+            <div class="certificate-actions">
+              <a class="btn secondary" href="./assets/images/C certificate.jpeg" target="_blank" rel="noreferrer"
+                >View</a>
+            </div>
+          </article>
+
+          <article class="card certificate-card fade-in">
+            <div class="card-header">
+              <h3>MACHINE LEARNING</h3>
+              <span class="tag">IIIT-H</span>
+            </div>
+            <p class="card-meta">Issued: MAY-2024</p>
+            <p class="card-description">
+              Completed a Machine Learning internship at IIIT-Hyderabad, where I gained hands-on experience in 
+              data preprocessing, model building, training, and evaluation. Worked with real-world 
+              datasets and applied core ML concepts
+               to solve practical problems, strengthening my analytical and problem-solving skills
+            </p>
+            <div class="certificate-actions">
+              <a class="btn secondary" href="./assets/images/IIIT Certificate.jpeg" target="_blank" rel="noreferrer"
+                >View</a>
+            </div>
+          </article>
+
+          <article class="card certificate-card fade-in">
+            <div class="card-header">
+              <h3>CODECRAFT INFOTECH </h3>
+              <span class="tag">Internship</span>
+            </div>
+            <p class="card-meta">Issued: JUNE-2025</p>
+            <p class="card-description">
+              Completed a Full-stack Web Developer internship at CodeCraft, where I worked on building responsive 
+              web pages and implementing frontend and backend features. 
+              Gained hands-on experience with HTML, CSS, JavaScript, and modern web development practices.
+            </p>
+            <div class="certificate-actions">
+              <a class="btn secondary" href="./assets/images/Intern cerificate.jpeg" target="_blank" rel="noreferrer"
+                >View</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Resume -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="skills-header">
+          <h2 class="section-title">Skills &amp; Resume</h2>
+          <a href="./assets/images/LAKSHMI INTRNSHIP RESUME.pdf" class="btn primary" download>
+            Download Resume
+          </a>
+        </div>
+        <div class="skills-grid">
+          <div class="skills-column fade-in">
+            <h3>Languages</h3>
+            <ul>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="skills-column fade-in">
+            <h3>Web &amp; Frameworks</h3>
+            <ul>
+              <li>HTML5, CSS3, Responsive Design</li>
+              <li>React, Bootstrap</li>
+            </ul>
+          </div>
+          <div class="skills-column fade-in">
+            <h3>Tools &amp; Others</h3>
+            <ul>
+              <li>Git, GitHub</li>
+              <li>SQL / MongoDB</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-text">
+          I'm always open to discussing new opportunities, internships, or
+          collaborations. Feel free to reach out through any of the platforms
+          below.
+        </p>
+        <div class="contact-grid">
+          <a
+            class="contact-card fade-in"
+            href="mailto:your.email@example.com"
+          >
+            <span class="contact-label">Email</span>
+            <span class="contact-value">avulalakshmiprasanna14@gmail.com</span>
+          </a>
+          <a
+            class="contact-card fade-in"
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/your-profile</span>
+          </a>
+          <a
+            class="contact-card fade-in"
+            href="https://github.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/your-username</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+
